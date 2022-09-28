@@ -1,0 +1,137 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+header{
+  padding-top: 29px;
+  padding-bottom: 57px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.j-content{
+  justify-content: space-between;
+
+}
+
+.align{
+  text-align: center;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+.box{
+  margin: auto;
+  max-width: 1294px;
+   li {
+     a{
+       font-family: 'Inter',sans-serif;
+       font-style: normal;
+       font-weight: 400;
+       font-size: 14px;
+       line-height: 17px;
+       color: #000000;
+       margin-right: 34px;
+       &:hover{
+         background-color:silver;
+       }
+     }
+     &:last-of-type a{
+       margin-left: 10px;
+     }
+   }
+}
+.icon{
+  &:first-of-type img{
+    margin-right: 25px;
+  }
+}
+
+.new-phons {
+  padding-top: 145px;
+  padding-bottom: 127px;
+  position: relative;
+  background: #DCE5E2;
+  border-radius: 32px;
+
+
+
+  .phones {
+
+    h1 {
+      font-family: 'Readex Pro', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 58px;
+      line-height: 70px;
+      color: #000000;
+      margin-bottom: 19px;
+    }
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #000000;
+      margin-bottom: 30px;
+    }
+
+    a {
+      font-family: 'Inter', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+      padding: 14px 53px;
+      border: 1px solid #000000;
+      border-radius: 200px;
+
+      &:hover {
+        background-color: silver;
+      }
+    }
+  }
+  img{
+    position: absolute;
+    right: 15%;
+    top: -6%;
+
+  }
+}
+
+.shop{
+  padding-bottom: 78px;
+  padding-top: 75px;
+}
+.shop-our{
+  max-width: 780px;
+  margin: auto;
+  h3{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+  }
+  p{
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+  }
+}
