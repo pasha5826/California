@@ -10,6 +10,10 @@ header {
   padding-bottom: 57px;
 }
 
+.space {
+  justify-content: space-around;
+}
+
 .d-flex {
   display: flex;
 }
@@ -22,7 +26,7 @@ header {
   text-align: center;
 }
 
-img {
+.img {
   display: block;
   max-width: 100%;
 }
@@ -106,7 +110,7 @@ img {
   margin: auto;
 }
 .shop-our h3 {
-  font-family: "Readex Pro";
+  font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 42px;
@@ -115,13 +119,267 @@ img {
   color: #000000;
 }
 .shop-our p {
-  font-family: "Readex Pro";
+  font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: #000000;
+  margin-bottom: 55px;
+}
+
+.box1 {
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+.box1 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: right;
+  color: #000000;
+}
+.box1 h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: right;
+  color: #000000;
+}
+
+.block1 {
+  margin-bottom: 72px;
+}
+
+.block2 {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-left: 46px;
+}
+
+.box2 {
+  padding-top: 144px;
+  background: #FFFFFF;
+  border-radius: 32px;
+}
+.box2 img {
+  margin-bottom: 41px;
+}
+.box2 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.box2 h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+}
+
+.box3 {
+  background: #FFFFFF;
+  border-radius: 32px;
+  padding-top: 114px;
+}
+.box3 p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+.box3 h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 42px;
+}
+
+.save {
+  padding-top: 78px;
+  padding-bottom: 74px;
+}
+
+.items {
+  max-width: 642px;
+  margin: auto;
+}
+.items h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.items p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  text-align: center;
+}
+
+.box-save {
+  max-width: 1294px;
+  margin: auto;
+}
+.box-save img {
+  margin-top: 31px;
+}
+.box-save h4 {
+  margin-top: 37px;
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+}
+.box-save p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 9px;
+  color: #4B4B4B;
+}
+.box-save h5 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 8px;
+}
+
+.block-save {
+  max-width: 247px;
+}
+
+.see {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.block-see {
+  max-width: 529px;
+  margin: auto;
+}
+.block-see h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 9px;
+}
+.block-see p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 56px;
+  text-align: center;
+}
+
+.explore {
+  background: #F8F9FA;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 413px;
+}
+.explore p {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  padding-top: 41px;
+}
+.explore h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.explore a {
+  padding: 14px 63px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 200px;
+}
+.explore a:hover {
+  background-color: silver;
+}
+.explore img {
+  margin-top: 30px;
+}
+
+.ideas {
+  padding-bottom: 75px;
+}
+.ideas img {
+  margin-bottom: 73px;
+}
+
+.road {
+  max-width: 620px;
+}
+.road p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 28px;
+  padding-left: 35px;
 }
 
 /*# sourceMappingURL=style.preproc.css.map */
