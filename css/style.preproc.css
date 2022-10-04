@@ -60,9 +60,13 @@ header {
   padding-bottom: 127px;
   position: relative;
   background: #DCE5E2;
-  border-radius: 32px;
+  border-radius: 16px;
 }
-.new-phons .phones h1 {
+.new-phons .phones-box {
+  margin: auto;
+  max-width: 1294px;
+}
+.new-phons .phones-box h1 {
   font-family: "Readex Pro", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -71,7 +75,7 @@ header {
   color: #000000;
   margin-bottom: 19px;
 }
-.new-phons .phones p {
+.new-phons .phones-box p {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -80,7 +84,7 @@ header {
   color: #000000;
   margin-bottom: 30px;
 }
-.new-phons .phones a {
+.new-phons .phones-box a {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -91,7 +95,7 @@ header {
   border: 1px solid #000000;
   border-radius: 200px;
 }
-.new-phons .phones a:hover {
+.new-phons .phones-box a:hover {
   background-color: silver;
 }
 .new-phons img {
@@ -362,7 +366,7 @@ header {
 }
 
 .ideas {
-  padding-bottom: 75px;
+  padding-bottom: 25px;
 }
 .ideas img {
   margin-bottom: 73px;
@@ -380,6 +384,195 @@ header {
   color: #000000;
   margin-bottom: 28px;
   padding-left: 35px;
+}
+
+.see-all {
+  margin: auto;
+  width: 150px;
+  display: flex;
+}
+.see-all p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.Looking {
+  padding-bottom: 17px;
+}
+.Looking h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  text-align: center;
+  color: #000000;
+}
+
+.input {
+  margin: auto;
+  max-width: 650px;
+  position: relative;
+}
+.input img {
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+.input input {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 30px;
+  margin-top: 24px;
+  width: 600px;
+  padding-top: 21px;
+  padding-bottom: 22px;
+  padding-left: 67px;
+}
+
+.input-box {
+  background: #F8F9FA;
+  border: 1px solid #C5C5C5;
+  border-radius: 100px;
+}
+
+.link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  margin: auto;
+}
+.link a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  background: #FFFFFF;
+  border: 1px solid #C5C5C5;
+  border-radius: 200px;
+  color: #000000;
+  padding: 12px 22px 13px 22px;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+.link a:hover {
+  background: silver;
+}
+
+.never {
+  max-width: 935px;
+  margin: auto;
+  background: #DCE5E2;
+  border-radius: 16px;
+  text-align: center;
+  position: relative;
+}
+.never h3 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  color: #000000;
+  padding-top: 47px;
+  margin-top: 68px;
+}
+.never p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.never img {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+.never form {
+  padding-bottom: 43px;
+}
+.never input {
+  background: #DCE5E2;
+  border: 1px solid #000000;
+  border-radius: 54px 0px 0px 54px;
+  padding: 18px 184px 19px 32px;
+}
+.never button {
+  background: #000000;
+  border-radius: 0px 200px 200px 0px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 16px 33px 17px 32px;
+  position: absolute;
+}
+
+footer {
+  background: #F8F9FA;
+  border-radius: 0px;
+  padding-bottom: 4px;
+  padding-top: 44px;
+}
+
+.footer-box {
+  margin: auto;
+  max-width: 1294px;
+}
+.footer-box img {
+  margin-bottom: 18px;
+}
+.footer-box p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.footer-box li {
+  margin-bottom: 14px;
+}
+.footer-box li:first-of-type {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 19px;
+}
+.footer-box li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  color: #000000;
+}
+
+h5 {
+  font-family: "Readex Pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.preproc.css.map */
